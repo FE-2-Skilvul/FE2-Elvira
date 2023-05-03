@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #333;
+}
+
+.section {
+    width: 75%;
+    margin: 75px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-gap: 25px;
+}
+
+.card {
+    background-color: #333;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.image-section {
+    min-height: 250px;
+}
+
+.card .image-one {
+    background-image: url("img/021901400_1524445022-BLOG_EarthDay2016.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card .image-two {
+    background-image: url("img/1555405103893998.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card .image-three {
+    background-image: url("img/effects-of-soil-pollution-052c7e61ec5c7dd76e6cdc2cccab5e79_600x400-600x375.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.content h2 {
+    letter-spacing: 2px;
+    color: #c9c9c9;
+}
+
+.content p {
+    font-size: 14px;
+    color: #7a7a7a;
+    margin: 15px 0px;
+}
+
+.content a {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: #222;
+    letter-spacing: 2px;
+    display: inline-block;
+    background-color: #d6c954;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.content a:hover {
+    background-color: #87803d;
+}
