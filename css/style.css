@@ -185,7 +185,7 @@
   
   button {
     padding: 10px 20px;
-    background-color: #419e44;
+    background-color: #205d77;
     color: white;
     border: none;
     border-radius: 5px;
@@ -194,7 +194,7 @@
   }
   
   button:hover {
-    background-color: #3a863c;
+    background-color: #184c62;
   }
   
   .modal {
