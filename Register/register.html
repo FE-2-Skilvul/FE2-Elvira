@@ -10,52 +10,75 @@
   </head>
   
   <body>
+    <!-- Menu Top Navbar -->
+    <nav>
+        <div class="navbar">
+            <div class="container-navbar">
+                <div class="box-navbar">
+                    <div class="logo">
+                    <h1>ElVIRA</h1>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#pengaduan">Pengaduan</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#artikel">Artikel</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li class="active"><a href="#daftar">Daftar</a></li>
+                    </ul>
+                    <i class="fa-solid fa-bars menu-bar"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Box Register -->
     <div class="container">
-      <div class="card login-form">
-        <div class="card-body">
-          <h2 class="card-title">Register</h2>
-          <h6 class="card-subtitle text-muted mb-5 fw-bold">Create new account to access this web!</h6>
+        <div class="card register-form">
+            <div class="card-body">
+            <h2 class="card-title">Register</h2>
+            <h6 class="card-subtitle text-muted mb-5 fw-bold">Create new account to access this web!</h6>
+        </div>
 
-            <div class="d-grid mt-5 mb-5">
-                <button type="submit" class="btn btn-light btn-gmail"> <img src="assets/google.png" class="img-google me-2" alt="gmail">Register with Gmail</button>
-            </div>
+        <div class="d-grid mt-5 mb-5">
+            <button type="submit" class="btn btn-light btn-gmail"> <img src="assets/google.png" class="img-google me-2" alt="gmail">Register with Gmail</button>
+        </div>
 
-          <form>
-            <div class="mb-4">
-              <label for="exampleInputUsername1" class="form-label">Username</label>
-              <input type="username" class="form-control" id="exampleInputEUsername1" aria-describedby="usernameHelp" placeholder="Username"/>
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"/>
-              </div>
-            <div class="mb-2">
-              <label for="exampleInputPassword1" class="form-label">Password*</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Min 8 Character"/>
-            </div>
+        <form>
+        <div class="mb-4">
+            <label for="exampleInputUsername1" class="form-label">Username</label>
+            <input type="username" class="form-control" id="exampleInputEUsername1" aria-describedby="usernameHelp" placeholder="Username"/>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"/>
+        </div>
+        <div class="mb-2">
+            <label for="exampleInputPassword1" class="form-label">Password*</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Min 8 Character"/>
+        </div>
 
-            <div class="d-flex justify-content-between">
-                <div class="mb-3 form-check">
+        <div class="d-flex justify-content-between">
+            <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
                 <label class="form-check-label" for="exampleCheck1">Remember Me</label>
-                </div>
-
-                <div>
-                    <a href="#" class="link">Forgot Password</a>
-                </div>
             </div>
 
-            <div class="d-grid mt-5">
-                <button type="submit" class="btn btn-success btn-login btn-secondary" id="login-btn">Register</button>
+            <div>
+                <a href="#" class="link">Forgot Password</a>
             </div>
-
-            <div class="mt-3">
-                <label>Already have an account? <a href="#" class="link">Login</a></label>
-            </div>
-        </form>
-
         </div>
-      </div>
+
+        <div class="d-grid mt-5">
+            <button type="submit" class="btn btn-success btn-register btn-secondary" id="register-btn">Register</button>
+        </div>
+
+        <div class="mt-3">
+            <label>Already have an account? <a href="#" class="link">Login</a></label>
+        </div>
+
+        </form>
+        </div>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
