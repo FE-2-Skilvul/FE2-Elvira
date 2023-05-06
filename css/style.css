@@ -267,6 +267,17 @@
   .services .box-services .box p {
     font-weight: 100;
   }
+
+  .paragraf {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .artikel button a {
+    color: white;
+    text-decoration: none;
+  }
+  
   
   .artikel {
     padding: 50px 0 50px 0;
