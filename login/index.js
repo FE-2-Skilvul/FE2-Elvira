@@ -2,7 +2,7 @@ const loginBtn = document.getElementById("login-btn");
 loginBtn.addEventListener("click", (event) => {
   event.preventDefault(); // menghentikan perilaku default dari form
 
-  const email = document.getElementById("exampleInputEmail1").value;
+  const email = document.getElementById("exampleInputUsername1").value;
   const password = document.getElementById("exampleInputPassword1").value;
 
   // mengirimkan permintaan login ke API
@@ -12,7 +12,7 @@ loginBtn.addEventListener("click", (event) => {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      email: email,
+      email: username,
       password: password,
     }),
   })
