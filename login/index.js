@@ -1,7 +1,8 @@
-const loginBtn = document.getElementById("login-btn");
+const loginBtn = document.getElementById("register-btn");
 loginBtn.addEventListener("click", (event) => {
   event.preventDefault(); // menghentikan perilaku default dari form
 
+  const username = document.getElementById("exampleInputUsername1").value;
   const email = document.getElementById("exampleInputEmail1").value;
   const password = document.getElementById("exampleInputPassword1").value;
 
@@ -12,6 +13,8 @@ loginBtn.addEventListener("click", (event) => {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
+
+      username: username,
       email: email,
       password: password,
     }),
@@ -23,4 +26,5 @@ loginBtn.addEventListener("click", (event) => {
     .catch((error) => {
       console.error("Error:", error);
     });
+
 });
