@@ -14,19 +14,21 @@ window.addEventListener("scroll", () => {
   menuNav.classList.remove("menu-active");
 });
 
+
+
 function handleGetFormData() {
-  const nameInput = document.getElementById('name');
-  const cityInput = document.getElementById('city');
+  const namaInput = document.getElementById('nama');
+  const teleponInput = document.getElementById('telepon');
   const emailInput = document.getElementById('email');
   const zipCodeInput = document.getElementById('zip-code');
-  const statusInput = document.getElementById('status');
+  const keluhanInput = document.getElementById('keluhan');
   
   const formData = {
-    name: nameInput.value,
-    city: cityInput.value,
+    nama: namaInput.value,
+    telepon: teleponInput.value,
     email: emailInput.value,
     zipCode: zipCodeInput.value,
-    status: statusInput.checked
+    keluhan: keluhanInput.checked
   };
   
   return formData;
@@ -64,5 +66,23 @@ function submit() {
   }
 }
 
+function showModal(event) {
+  event.preventDefault();
+  // show modal
+  var modal = document.getElementById("myModal");
+  modal.style.display = "block";
+  // reset form
+  document.getElementById("nama").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("telepon").value = "";
+  document.getElementById("lokasi").value = "";
+  document.getElementById("zip-code").value = "";
+  document.getElementById("keluhan").value = "";
+}
+
+function closeModal() {
+  var modal = document.getElementById("myModal");
+  modal.style.display = "none";
+}
 
 
