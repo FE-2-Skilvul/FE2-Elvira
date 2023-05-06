@@ -79,7 +79,8 @@ body ,html {
 
 .card-title,
 .card-subtitle {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .register-form {
