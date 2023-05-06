@@ -77,6 +77,11 @@ body ,html {
     justify-content: center;
 }
 
+.card-title,
+.card-subtitle {
+  margin-bottom: 50px;
+}
+
 .register-form {
     height: 500px;
     width: 430px;
